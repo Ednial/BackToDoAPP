@@ -13,5 +13,14 @@ public class Task {
     private Long id;
     private String message;
 
-    private long FK_DoListId;
+   /*
+
+    //Mapping colum of task table
+    @ManyToMany
+    //Adding name
+    @JoinColumn(name = "id_list")
+    private DoList FK_DoListId;
+
+    */
+
 }
